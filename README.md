@@ -17,6 +17,12 @@ brew install fig
 brew install starship
 ```
 
+### Visual Studio Code
+
+```bash
+brew install --cask visual-studio-code
+```
+
 ## Font
 
 ### Fira Code Nerd Font
