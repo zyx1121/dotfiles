@@ -1,31 +1,54 @@
-## Tools
+## Terminal
 
-### Homebrew
+Homebrew
+
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Fig
+Fig
 
 ```bash
 brew install fig
 ```
 
-### Starship
+Starship
 
 ```bash
 brew install starship
 ```
 
-### Visual Studio Code
+Git
+
+```bash
+brew install git
+```
+
+
+## Tool
+
+Visual Studio Code
 
 ```bash
 brew install --cask visual-studio-code
 ```
 
+Rectangle
+
+```bash
+brew install --cask rectangle
+```
+
+Raycast
+
+```bash
+brew install --cask raycast
+```
+
+
 ## Font
 
-### Fira Code Nerd Font
+Fira Code Nerd Font
 
 ```bash
 brew tap homebrew/cask-fonts
