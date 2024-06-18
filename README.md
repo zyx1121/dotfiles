@@ -18,7 +18,7 @@ brew install starship
 brew install zsh-autosuggestions zsh-autocomplete zsh-fast-syntax-highlighting
 ```
 
-### font
+### Font
 
 ```bash
 brew install --cask font-fira-code-nerd-font
