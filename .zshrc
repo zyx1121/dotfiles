@@ -1,9 +1,8 @@
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Starship
 eval "$(starship init zsh)"
-
-# Homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Plugins
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -14,3 +13,11 @@ source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-high
 alias cloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
 alias python=python3
 alias pip=pip3
+
+# Poetry
+export PATH="$HOME/.local/bin:$PATH"
+
+# Pyenv
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
