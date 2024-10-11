@@ -15,7 +15,7 @@ brew install starship
 ### Plugins
 
 ```bash
-brew install zsh-autosuggestions zsh-autocomplete zsh-fast-syntax-highlighting
+brew install zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting
 ```
 
 ### Font
