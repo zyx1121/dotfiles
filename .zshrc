@@ -30,3 +30,10 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
+
+# ------------------------
+# Auto Completion and Functions Path
+# ------------------------
+zstyle ':completion:*' menu select
+fpath+=~/.zfunc
+autoload -Uz compinit && compinit
