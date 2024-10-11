@@ -12,7 +12,7 @@
 brew install starship
 ```
 
-### Plugins
+### Zsh Plugins
 
 ```bash
 brew install zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting
@@ -22,4 +22,17 @@ brew install zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting
 
 ```bash
 brew install --cask font-fira-code-nerd-font
+```
+
+### pyenv
+
+```bash
+brew install pyenv
+```
+
+### Poetry
+
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+poetry completions zsh > ~/.zfunc/_poetry
 ```
