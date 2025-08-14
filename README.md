@@ -21,18 +21,11 @@ brew install zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting
 ### Font
 
 ```bash
-brew install --cask font-fira-code-nerd-font
+brew install --cask font-maple-mono-nf-cn
 ```
 
-### pyenv
+### uv
 
 ```bash
-brew install pyenv
-```
-
-### Poetry
-
-```bash
-curl -sSL https://install.python-poetry.org | python3 -
-poetry completions zsh > ~/.zfunc/_poetry
+brew install uv
 ```
